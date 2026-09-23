@@ -27,7 +27,7 @@ st.set_page_config(
 GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", os.environ.get("GROQ_API_KEY", ""))
 TAVILY_API_KEY = st.secrets.get("TAVILY_API_KEY", os.environ.get("TAVILY_API_KEY", ""))
 
-GROQ_MODEL = "llama-3.3-70b-versatile"  # free tier, strong reasoning, good for synthesis
+GROQ_MODEL = "openai/gpt-oss-120b"  # free tier, strong reasoning, good for synthesis
 
 
 # ---------- DARK THEME / CUSTOM STYLING ----------
